@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.facerecognition.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Face Recognition"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:id="@+id/MainTitle"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:text="Capture Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:id="@+id/SubTitle1"
+        android:layout_below="@+id/MainTitle" />
+
+    <Button
+        android:id="@+id/histeqButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SubTitle1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="Capture Image" />
+
+    <TextView
+        android:text="Predict Person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SubTitle2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/histeqButton"/>
+
+    <Button
+        android:text="Predict Person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:id="@+id/sharpeButton"
+        android:layout_below="@+id/SubTitle2"
+        android:layout_centerHorizontal="true" />
+
+<!--    <Button-->
+<!--        android:id="@+id/edgeButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/sharpeButton"-->
+<!--        android:layout_marginTop="56dp"-->
+<!--        android:text="Edge Detection" />-->
+
+</RelativeLayout>
